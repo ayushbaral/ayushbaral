@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+}
+.grid-container{
+    display:grid;
+    grid-row-gap: 5px;
+    grid-column-gap: 20px;
+    padding: 2% 5% 2% 5%;
+    grid-template-columns: repeat(5,minmax(0,1fr));
+    grid-template-rows: repeat(5, minmax(150px, auto));
+    background-color: rgb(228, 221, 211);
+}
+
+.picture {
+    grid-column: span 1;
+}
+
+.picture img{
+    display: grid;
+    border-radius:40%;
+    width: 80%;
+    /*padding: 15% 5% 15% 5%;*/
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+
+}
+
+.about{
+    grid-column: 2/5;
+}
+
+.about h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inner-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column:1/5;
+    grid-column-gap: 5px   
+}
+
+ .inner-grid img{
+    width: 20%;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+ }
+
+.work{
+    grid-column:1/2;
+    padding: 25% 25% 25% 25%;
+    align-content: center;
+}
+
+.credit{
+    grid-column: 2/3 ;
+}
+
+.cree{
+    grid-column: 3/4;
+}
+
+.alcorn{
+    grid-column: 4/5;
+}
+
+.credit img{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.cree img{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.alcorn img{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.travel{
+    grid-column: 1/2;
+    padding: 25% 25% 25% 25%;
+}
+
+.future{
+    grid-column: 1/2;
+    padding: 25% 25% 25% 25%;
+}
