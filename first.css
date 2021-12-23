@@ -56,16 +56,27 @@ body{
     align-content: center;
 }
 
+.columbia{
+    grid-column: 2/3;
+}
+
 .credit{
-    grid-column: 2/3 ;
+    grid-column: 3/4 ;
 }
 
 .cree{
-    grid-column: 3/4;
+    grid-column: 4/5;
 }
 
 .alcorn{
-    grid-column: 4/5;
+    grid-column: 5/6;
+}
+
+.columbia img{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+    mix-blend-mode: multiply;
 }
 
 .credit img{
