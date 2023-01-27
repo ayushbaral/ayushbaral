@@ -88,7 +88,7 @@ main{
         /* height:100%; */
         grid-template-columns: repeat(3,1fr); /* one columns*/
         grid-template-rows: 400px 40px 10px; /* adjust row sizes */
-        width:100%; /* take the full width */
+        width:50%; /* take the full width */
     }
 
     .name{
