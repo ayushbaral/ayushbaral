@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+main {
+    width: 70%;
+    float: left;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+aside {
+    width: 25%;
+    float: right;
+    padding: 20px;
+    background: #ffe0b2;
+    border-radius: 10px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+}
